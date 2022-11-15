@@ -8,7 +8,7 @@ export const Nav= styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1rem;
+    font-size: 1.5rem;
     position: sticky;
     top: 0;
     z-index: 10;
@@ -100,7 +100,7 @@ export const NavBtnLink = styled(LinkR)`
     white-space: nowrap;
     padding: 10px 22px;
     color: #000;
-    font-size: 1rem;
+    font-size: 1.5rem;
     border: none;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
