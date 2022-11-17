@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
-import { LoopContainer, LoopBg, VideoBg, LoopContent, LoopH1, LoopP, LoopBtnWrapper, Button, ArrowFrd, ArrowRgt } from './VideoLoopElements'
+import { LoopContainer, LoopBg, VideoBg, LoopContent, LoopH1, LoopP, LoopBtnWrapper, ArrowFrd, ArrowRgt } from './VideoLoopElements'
+import { Button } from '../ButtonElement'
 import Video from '../../video/video.mp4'
 
 const VideoLoop = () => {
