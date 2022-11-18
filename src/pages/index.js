@@ -3,6 +3,8 @@ import Sidebar from '../components/Sidebar'
 import Navbar from '../components/Navbar'
 import { useState } from 'react'
 import VideoLoop from '../components/VideoLoop'
+import AboutSection from '../components/AboutSection'
+import { homeObjOne, homeObjTwo, homeObjThree } from '../components/AboutSection/Data'
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -16,6 +18,9 @@ const Home = () => {
         <Sidebar isOpen={isOpen} toggle={toggle}/>
         <Navbar toggle={toggle}/>
         <VideoLoop />
+        <AboutSection {...homeObjOne}/>
+        <AboutSection {...homeObjTwo}/>
+        <AboutSection {...homeObjThree}/>
     </>
   )
 }

@@ -10,8 +10,7 @@ export const LoopContainer = styled.div`
     height: 800px;
     position: relative;
     z-index: 1;
-
-    /* Add :before styles*/
+    }
 `
 
 export const LoopBg = styled.div`
@@ -45,31 +44,31 @@ export const LoopContent = styled.div`
 
 export const LoopH1 = styled.h1`
     color: #fff;
-    font-size: 48px;
+    font-size: 78px;
     text-align: center;
 
     @media screen and (max-width 760px){
-        font-size: 40px;
+        font-size: 70px;
     }
 
     @media screen and (max-width 480px){
-        font-size: 32px;
+        font-size: 55px;
     }
 `
 
 export const LoopP = styled.p`
     margin-top: 24px;
     color: #fff;
-    font-size: 24px;
+    font-size: 50px;
     text-align: center;
     max-width: 600px;
 
     @media screen and (max-width 760px){
-        font-size: 24px;
+        font-size: 45px;
     }
 
     @media screen and (max-width 480px){
-        font-size: 18px;
+        font-size: 35px;
     }
 `
 
@@ -82,9 +81,9 @@ export const LoopBtnWrapper = styled.div`
 
 export const ArrowFrd = styled(MdArrowForward)`
     margin-left: 8px;
-    font-size: 20px;
+    font-size: 35px;
 `
 export const ArrowRgt = styled(MdKeyboardArrowRight)`
     margin-left: 8px;
-    font-size: 20px;
+    font-size: 35px;
 `
