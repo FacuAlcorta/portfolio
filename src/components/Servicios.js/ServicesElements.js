@@ -4,7 +4,7 @@ export const ServicesContainer = styled.div`
     height: 600px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     background: #000;
 
@@ -12,12 +12,12 @@ export const ServicesContainer = styled.div`
         height: 900px;
     }
 
-    @media screen and (max-width: 800px){
-        height: 1500px;
+    @media screen and (max-width: 780px){
+        height: 1600px;
     }
 
     @media screen and (max-width: 580px){
-        height: 1600px;
+        height: 1700px;
     }
 `
 
@@ -60,7 +60,7 @@ export const ServicesCard = styled.div`
         curosr: pointer;
     }
 
-    @media screen and (max-width: 1150px ){
+    @media screen and (max-width: 1200px ){
         height: 480px;
     }
 `

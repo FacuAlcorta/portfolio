@@ -21,8 +21,8 @@ const Home = () => {
         <VideoLoop />
         <AboutSection {...homeObjOne}/>
         <AboutSection {...homeObjTwo}/>
-        <AboutSection {...homeObjThree}/>
         <Services />
+        <AboutSection {...homeObjThree}/>
         <AboutSection {...homeObjFour}/>
     </>
   )

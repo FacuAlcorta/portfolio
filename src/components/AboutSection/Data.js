@@ -34,34 +34,34 @@ export const homeObjTwo = {
 
 export const homeObjThree = {
     id: 'design',
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
     topLine: 'Un diseño único para cada persona',
     headline: 'Diseñamos tus ideas',
     description: 'Comenzamos con el diseño digital, para sumarle ese toque personal a tu propuesta.',
     buttonLabel: 'Diseñame',
-    imgStart: false,
-    img: require('../../images/designing-png.png'),
-    alt: 'Codding',
-    dark: true,
-    primary: true,
-    darkText: false
-}
-
-export const homeObjFour = {
-    id: 'portfolio',
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
-    topLine: 'Portfolio',
-    headline: 'Recorre mi galeria de trabajos',
-    description: 'Aquí encontrarás todos los trabajos realizados por mi.',
-    buttonLabel: 'Visitar',
     imgStart: true,
-    img: require('../../images/portfolio-png.png'),
+    img: require('../../images/designing-png.png'),
     alt: 'Codding',
     dark: false,
     primary: false,
     darkText: true
+}
+
+export const homeObjFour = {
+    id: 'portfolio',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Portfolio',
+    headline: 'Recorre mi galeria de trabajos',
+    description: 'Aquí encontrarás todos los trabajos realizados por mi.',
+    buttonLabel: 'Visitar',
+    imgStart: false,
+    img: require('../../images/portfolio-png.png'),
+    alt: 'Codding',
+    dark: true,
+    primary: true,
+    darkText: false
 }
