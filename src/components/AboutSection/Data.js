@@ -16,14 +16,14 @@ export const homeObjOne = {
 }
 
 export const homeObjTwo = {
-    id: 'Skills',
+    id: 'skills',
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
     topLine: 'Opciones para cada cliente',
     headline: 'Nos adaptamos a tus necesidades',
     description: 'Contamos con distintos tipos de servicios, ya sea diseños estaticos o dinámicos para que puedas elegir.',
-    buttonLabel: 'Asesorarme',
+    buttonLabel: 'Recorrer',
     imgStart: true,
     img: require('../../images/code-png.png'),
     alt: 'Codding',
@@ -33,18 +33,35 @@ export const homeObjTwo = {
 }
 
 export const homeObjThree = {
-    id: 'Portfolio',
+    id: 'design',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
     topLine: 'Un diseño único para cada persona',
     headline: 'Diseñamos tus ideas',
     description: 'Comenzamos con el diseño digital, para sumarle ese toque personal a tu propuesta.',
-    buttonLabel: 'Asesorarme',
+    buttonLabel: 'Diseñame',
     imgStart: false,
     img: require('../../images/designing-png.png'),
     alt: 'Codding',
     dark: true,
     primary: true,
     darkText: false
+}
+
+export const homeObjFour = {
+    id: 'portfolio',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'Portfolio',
+    headline: 'Recorre mi galeria de trabajos',
+    description: 'Aquí encontrarás todos los trabajos realizados por mi.',
+    buttonLabel: 'Visitar',
+    imgStart: true,
+    img: require('../../images/portfolio-png.png'),
+    alt: 'Codding',
+    dark: false,
+    primary: false,
+    darkText: true
 }

@@ -4,7 +4,8 @@ import Navbar from '../components/Navbar'
 import { useState } from 'react'
 import VideoLoop from '../components/VideoLoop'
 import AboutSection from '../components/AboutSection'
-import { homeObjOne, homeObjTwo, homeObjThree } from '../components/AboutSection/Data'
+import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from '../components/AboutSection/Data'
+import Services from '../components/Servicios.js'
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -21,6 +22,8 @@ const Home = () => {
         <AboutSection {...homeObjOne}/>
         <AboutSection {...homeObjTwo}/>
         <AboutSection {...homeObjThree}/>
+        <Services />
+        <AboutSection {...homeObjFour}/>
     </>
   )
 }
