@@ -1,15 +1,17 @@
 import React from 'react'
 import './App.css';
-import { BrowserRouter as Router } from 'react-router-dom';
-import Home from './pages';
-import AboutSection from './components/AboutSection';
-import Services from './components/Servicios.js';
+import { BrowserRouter as Router, Routes,Route } from 'react-router-dom';
+import Home from './pages/index';
+import Contact from './pages/contact';
 
 
 const App = () => {
   return (
     <Router>
-        <Home />
+        <Routes>
+            <Route path="/" element={<Home />}/>
+            <Route path="contacto" element={<Contact />}/>
+        </Routes>
     </Router>
   )
 }

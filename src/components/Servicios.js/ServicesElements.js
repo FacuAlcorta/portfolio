@@ -51,6 +51,7 @@ export const ServicesCard = styled.div`
     border-radius: 10px;
     max-height: 340px;
     padding: 30px;
+    cursor: pointer;
     box-shadow: 0 1px 2px rgba(0,0,0,0.2);
     transition: all 0.2s ease-in-out;
 
@@ -75,6 +76,7 @@ export const ServicesTitle = styled.h1`
     font-size: 3rem;
     color: #fff;
     margin-bottom: 64px;
+    text-decoration: underline;
 
     @media screen and (max-width: 480px){
         font-size: 3rem;

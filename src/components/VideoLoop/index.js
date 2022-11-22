@@ -11,7 +11,7 @@ const VideoLoop = () => {
     }
 
   return (
-    <LoopContainer>
+    <LoopContainer id="/">
         <LoopBg>
             <VideoBg autoPlay loop muted src={Video} type='video/mp4'/>
         </LoopBg>

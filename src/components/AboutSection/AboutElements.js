@@ -60,6 +60,7 @@ export const TopLine = styled.p`
     letter-spacing: 1.5px;
     text-transform: uppercase;
     margin-bottom: 16px;
+    text-decoration: underline;
 `
 
 export const Heading = styled.h1`

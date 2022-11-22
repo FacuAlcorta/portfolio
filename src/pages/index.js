@@ -6,6 +6,7 @@ import VideoLoop from '../components/VideoLoop'
 import AboutSection from '../components/AboutSection'
 import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from '../components/AboutSection/Data'
 import Services from '../components/Servicios.js'
+import Footer from '../components/Footer'
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -24,6 +25,7 @@ const Home = () => {
         <Services />
         <AboutSection {...homeObjThree}/>
         <AboutSection {...homeObjFour}/>
+        <Footer />
     </>
   )
 }

@@ -29,15 +29,15 @@ export const NavbarContainer = styled.div`
 `
 
 export const NavLogo = styled(LinkR)`
-    color: #fff;
+    height: 80px;
     justify-self: flex-start;
     cursor: pointer;
-    font-size: 1.5rem;
     display: flex;
     align-items: center;
-    margin-left: 24px;
-    font-weight: bold;
-    text-decoration: none;
+   
+`
+export const ImgLogo = styled.img`
+    width: 90px;
 `
 
 export const MobileIcon = styled.div`
