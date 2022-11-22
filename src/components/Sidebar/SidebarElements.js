@@ -5,7 +5,7 @@ import { Link as LinkS } from "react-scroll";
 
 export const SidebarContainer = styled.aside`
     position: fixed;
-    z-idex: 999;
+    z-index: 99;
     width: 100%;
     height: 100%;
     background-color: #000;
@@ -38,11 +38,11 @@ export const SidebarWrapper = styled.div`
 export const SidebarMenu = styled.ul`
     display: grid;
     grid-template-colum: 1fr;
-    grid-template-rows: repeat(6, 80px);
+    grid-template-rows: repeat(4, 120px);
     text-align: center;
 
     @media screen and (max-width: 480px){
-        grid-template-rows: repeat(6, 60px);
+        grid-template-rows: repeat(4, 80px);
     }
 `
 
@@ -50,7 +50,7 @@ export const SidebarLink = styled(LinkS)`
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     text-decoration: none;
     list-style: none;
     transition: 0.2s ease-in-out;
@@ -74,7 +74,7 @@ export const SidebarRoute = styled(LinkR)`
     white-space: nowrap;
     padding: 16px 64px;
     color: #000;
-    font-size: 16px;
+    font-size: 30px;
     border: none;
     outline: none;
     cursor: pointer;

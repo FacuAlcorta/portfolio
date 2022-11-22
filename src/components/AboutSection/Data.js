@@ -40,7 +40,7 @@ export const homeObjThree = {
     topLine: 'Un diseño único para cada persona',
     headline: 'Diseñamos tus ideas',
     description: 'Comenzamos con el diseño digital, para sumarle ese toque personal a tu propuesta.',
-    buttonLabel: 'Diseñame',
+    buttonLabel: 'Ponete en contacto !',
     imgStart: true,
     img: require('../../images/designing-png.png'),
     alt: 'Codding',
