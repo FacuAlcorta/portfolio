@@ -1,4 +1,5 @@
-import { Link } from 'react-router-dom';
+import { Link as LinkR } from 'react-router-dom';
+import { Link as LinkSr } from 'react-scroll'
 import styled from 'styled-components';
 
 export const AboutContainer = styled.div`
@@ -87,14 +88,23 @@ export const Subtitle = styled.p`
     }
 `
 
-export const BtnWrapper = styled(Link)`
+export const BtnWrapper = styled.div`
     diplay: flex;
-    text-decoration: none;
     justify-content: flex-start;
     
 `
 
-export const ImgWrap = styled.div`cd 
+export const Link = styled(LinkR)`
+    text-decoration: none;
+    color: #fff;
+`
+
+export const LinkS = styled(LinkSr)`
+    text-decoration: none;
+    color: #fff;
+`
+
+export const ImgWrap = styled.div` 
     max-width: auto;
     height: auto;
 `

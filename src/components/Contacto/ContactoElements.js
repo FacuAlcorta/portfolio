@@ -87,7 +87,8 @@ export const FormLabel = styled.label`
 `
 
 export const FormInput = styled.input`
-    padding: 16px 16px;
+    font-size: 22px;
+    padding: 12px 12px;
     margin-bottom: 32px;
     border: none;
     border-radius: 4px;
@@ -114,4 +115,9 @@ export const FormButton = styled.button`
     color: #000;
     font-size: 30px;
     cursor: pointer;
+
+    &:hover {
+        transform: scale(1.04);
+        transition: 0.3 ease-in-out;
+    }
 `

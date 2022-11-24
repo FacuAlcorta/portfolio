@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { MdKeyboardArrowRight, MdArrowForward } from 'react-icons/md';
+import { Link as LinkR } from "react-router-dom";
 
 export const LoopContainer = styled.div`
     background: #000;
@@ -78,6 +79,15 @@ export const LoopBtnWrapper = styled.div`
     flex-direction: column;
     alignt-items: center;
 `
+
+export const Link = styled(LinkR)`
+    display: flex;
+    flex-direction: row;
+    alignt-items: center;
+    text-decoration: none;
+    color: #fff;
+`
+
 
 export const ArrowFrd = styled(MdArrowForward)`
     margin-left: 8px;

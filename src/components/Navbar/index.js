@@ -1,4 +1,4 @@
-import React, { useState } from 'react'  
+import React from 'react'  
 import { FaBars } from 'react-icons/fa'
 import { Link } from 'react-scroll'
 import { ImgLogo, Nav, NavLogo, NavbarContainer, MobileIcon, NavItem, NavMenu, NavLinks, NavBtn, NavBtnLink } from './NavbarElements'

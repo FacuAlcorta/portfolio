@@ -43,7 +43,7 @@ export const homeObjThree = {
     buttonLabel: 'Ponete en contacto !',
     imgStart: true,
     img: require('../../images/designing-png.png'),
-    alt: 'Codding',
+    alt: 'Designing',
     dark: false,
     primary: false,
     darkText: true
@@ -57,7 +57,7 @@ export const homeObjFour = {
     topLine: 'Portfolio',
     headline: 'Recorre mi galeria de trabajos',
     description: 'Aquí encontrarás todos los trabajos realizados por mi.',
-    buttonLabel: 'Visitar',
+    buttonLabel: 'Próximamente',
     imgStart: false,
     img: require('../../images/portfolio-png.png'),
     alt: 'Codding',
