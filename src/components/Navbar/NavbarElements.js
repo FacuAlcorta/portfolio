@@ -10,6 +10,7 @@ export const Nav= styled.div`
     align-items: center;
     font-size: 1.5rem;
     position: sticky;
+    border-bottom: 0.5px solid #00ca6b;
     top: 0;
     z-index: 10;
 
@@ -81,7 +82,21 @@ export const NavLinks = styled(LinkS)`
     cursor: pointer;
 
     &.active {
-        border-bottom: 3px solid #00e379;
+        border-bottom: 4px solid #00e379;
+    }
+`
+
+export const NavLinksR = styled(LinkR)`
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    cursor: pointer;
+
+    &.active {
+        border-bottom: 4px solid #00e379;
     }
 `
 

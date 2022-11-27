@@ -8,7 +8,7 @@ import Icon4 from '../../images/portfolio-png.png'
 const Services = () => {
   return (
     <>
-        <ServicesContainer id='services'>
+        <ServicesContainer>
             <ServicesTitle>Elegí la opción que más te convenga.</ServicesTitle>
             <ServicesWrapper>
                 <ServicesCard>

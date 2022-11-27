@@ -61,11 +61,8 @@ export const AboutSection1 = ({lightBg, id, imgStart, topLine, lightText, headli
                           <BtnWrapper>
                               <Button>                        
                               <LinkS to="services"
-                                smooth={true}
-                                duration={500}
                                 spy={true}
                                 exact={true}
-                                offset={-60}
                               >
                               {buttonLabel}
                               </LinkS>                              

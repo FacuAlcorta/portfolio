@@ -6,6 +6,7 @@ export const ServicesContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     background: #000;
 
     @media screen and (max-width: 1200px){
@@ -51,9 +52,9 @@ export const ServicesCard = styled.div`
     border-radius: 10px;
     max-height: 340px;
     padding: 30px;
-    cursor: pointer;
     box-shadow: 0 1px 2px rgba(0,0,0,0.2);
     transition: all 0.2s ease-in-out;
+    cursor: pointer;
 
     &:hover {
         transform: scale(1.02);

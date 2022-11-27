@@ -1,5 +1,4 @@
 import { Link as LinkR } from 'react-router-dom';
-import { Link as LinkSr } from 'react-scroll'
 import styled from 'styled-components';
 
 export const AboutContainer = styled.div`
@@ -94,12 +93,17 @@ export const BtnWrapper = styled.div`
     
 `
 
+export const BtnWrapper1 = styled.div`
+    diplay: flex;
+    justify-content: flex-start;
+ `
+
 export const Link = styled(LinkR)`
     text-decoration: none;
     color: #fff;
 `
 
-export const LinkS = styled(LinkSr)`
+export const LinkS = styled(LinkR)`
     text-decoration: none;
     color: #fff;
 `
