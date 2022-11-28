@@ -2,13 +2,14 @@ import styled from "styled-components";
 import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
-    min-height: 600px;
+    min-height: 692px;
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
     top: 0;
     z-index: 0;
+    overflow: hidden;
     background: linear-gradient(
         108deg,
         rgba(1, 147, 86, 1) 0%,
@@ -29,10 +30,7 @@ export const FormWrapper = styled.div`
 `
 
 export const NavLogo = styled(Link)`
-        margin-top: 8px;
-        background: #000;
-        border-radius: 50%;
-        z-index: 10;
+        margin-top: 48px;
 `
 
 export const FormContent = styled.div`
@@ -55,14 +53,11 @@ export const Form = styled.form`
     z-index: 1;
     display: grid;
     margin: 0 auto;
-    padding: 10px 32px;
+    padding: 80px 32px;
     border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 1);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.9);
 
     @media screen and (max-width: 500px) {
-        padding: 32px 32px;
-
-    @media screen and (height: 750px) {
         padding: 32px 32px;
     }
 `
@@ -94,7 +89,7 @@ export const FormLabel = styled.label`
 export const FormInput = styled.input`
     font-size: 22px;
     padding: 12px 12px;
-    margin-bottom: 20px;
+    margin-bottom: 32px;
     border: none;
     border-radius: 4px;
     max-length: 4;

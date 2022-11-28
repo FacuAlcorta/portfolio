@@ -63,11 +63,6 @@ export const AboutSection1 = ({lightBg, id, imgStart, topLine, lightText, headli
                           <BtnWrapper>
                               <Button onClick={()=> window.scrollTo({top: 0, left: 0})}>                        
                               <LinkS to="services"
-<<<<<<< HEAD
-                                spy={true}
-                                exact={true}
-=======
->>>>>>> 0287efc (Agregado de flipcard y video en contacto)
                               >
                               {buttonLabel}
                               </LinkS>                              

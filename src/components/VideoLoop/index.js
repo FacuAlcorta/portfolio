@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { LoopContainer, LoopBg, VideoBg, LoopContent, LoopH1, LoopP, LoopBtnWrapper, Link, ArrowFrd, ArrowRgt } from './VideoLoopElements'
 import { Button } from '../ButtonElements'
-import Video from '../../video/coding-video.mp4'
+import Video from '../../video/video.mp4'
 
 const VideoLoop = () => {
     const [hover, setHover] = useState(false)

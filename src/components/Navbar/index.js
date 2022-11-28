@@ -72,11 +72,7 @@ export const NavbarS = ({toggle}) => {
 export const NavbarR = ({toggle}) => {
   
   const toggleHome = () => {
-<<<<<<< HEAD
-    scroll.scrollToTop();
-=======
     scroll.scrollToTop(true);
->>>>>>> 0287efc (Agregado de flipcard y video en contacto)
   }
 
   return (
@@ -90,47 +86,12 @@ export const NavbarR = ({toggle}) => {
                 <NavMenu>
                   <NavItem>
                     <NavLinksR
-<<<<<<< HEAD
-                    to="/about"
-                    spy={true}
-                    offset={-80}
-                    >About</NavLinksR>
-                  </NavItem>
-                  <NavItem>
-                    <NavLinksR
-                    to="/skills"
-                    smooth={true}
-                    duration={350}
-                    spy={true}
-                    offset={-80}
-                    >Skills</NavLinksR>
-                  </NavItem>
-                  <NavItem>
-                    <NavLinksR 
-                    to="/design"
-                    smooth={true}
-                    duration={350}
-                    spy={true}
-                    offset={-80}
-                    >Diseño</NavLinksR>
-                  </NavItem>
-                  <NavItem>
-                    <NavLinksR 
-                    to="/portfolio"
-                    smooth={true}
-                    duration={350}
-                    spy={true}
-                    offset={-80}
-                    >Portfolio</NavLinksR>
-                  </NavItem>
-=======
                     to="/"
                     onClick={()=> window.scrollTo({top: 0, left: 0})}
                     offset={-80}
                     >Home</NavLinksR>
                   </NavItem>
                   
->>>>>>> 0287efc (Agregado de flipcard y video en contacto)
                 </NavMenu>
                   <NavBtn>
                     <NavBtnLink to="/contacto">Contacto</NavBtnLink>
