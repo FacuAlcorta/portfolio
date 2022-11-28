@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.654320be.css",
+    "main.js": "/portfolio/static/js/main.6897e801.js",
+    "static/media/send-email.mp4": "/portfolio/static/media/send-email.db4da545ef785d0bbedf.mp4",
+    "static/media/coding-video.mp4": "/portfolio/static/media/coding-video.22acab75d452957cc30b.mp4",
+    "static/media/error-page.png": "/portfolio/static/media/error-page.3b355a580641e8b6a5f2.png",
+    "static/media/designing-png.png": "/portfolio/static/media/designing-png.31f51d16dd8f7940a0d7.png",
+    "static/media/laptop-mobile-png.png": "/portfolio/static/media/laptop-mobile-png.dff2ecfc2c6a29a82364.png",
+    "static/media/react-png.png": "/portfolio/static/media/react-png.0b1d3f5b901f7249ed7d.png",
+    "static/media/coding-desk-png.png": "/portfolio/static/media/coding-desk-png.8231485b10f71dca607a.png",
+    "static/media/html-css-png.png": "/portfolio/static/media/html-css-png.6062426bcffc375d575a.png",
+    "static/media/code-png.png": "/portfolio/static/media/code-png.966aa693b980294d6a04.png",
+    "static/media/marca-png.png": "/portfolio/static/media/marca-png.87d38b8fd743c01cf86a.png",
+    "static/media/portfolio-png.png": "/portfolio/static/media/portfolio-png.098a6c74a83b69c1f209.png",
+    "index.html": "/portfolio/index.html",
+    "main.654320be.css.map": "/portfolio/static/css/main.654320be.css.map",
+    "main.6897e801.js.map": "/portfolio/static/js/main.6897e801.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.654320be.css",
+    "static/js/main.6897e801.js"
+  ]
+}
