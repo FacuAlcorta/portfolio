@@ -95,7 +95,11 @@ export const NavLinksR = styled(LinkR)`
     height: 100%;
     cursor: pointer;
 
+<<<<<<< HEAD
     &.active {
+=======
+    &:hover{
+>>>>>>> 0287efc (Agregado de flipcard y video en contacto)
         border-bottom: 4px solid #00e379;
     }
 `

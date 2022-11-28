@@ -5,6 +5,8 @@ import { ImgLogo } from '../Navbar/NavbarElements';
 import { IoMdPaper, IoMdAt, IoIosContact, IoIosArrowForward } from "react-icons/io";
 import emailjs from '@emailjs/browser'
 import Swal from 'sweetalert2'
+import { LoopBg, VideoBg } from '../VideoLoop/VideoLoopElements';
+import Video from '../../video/send-email.mp4'
 
 
 const Contacto = () => {
@@ -45,6 +47,9 @@ const Contacto = () => {
     <Container>
         <FormWrapper>
             <NavLogo to="/" offset={-80}><ImgLogo src={require(`../../images/marca-png.png`)}/></NavLogo>
+        <LoopBg>
+          <VideoBg autoPlay loop muted src={Video} type='video/mp4'/>
+        </LoopBg>
             <FormContent>
                 <Form ref={form} onSubmit={handleSubmit(sendEmail)}>
                     <FormH1>Contactame</FormH1>

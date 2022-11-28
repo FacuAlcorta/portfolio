@@ -3,26 +3,26 @@ import { Link } from 'react-router-dom'
 
 export const FooterContainer = styled.footer`
     background-color: #696969;
-    border-top: 3px solid #00ca6b;
+    border-top: 1px solid #00ca6b;
+    overflow: hidden;
 
 `
 
 export const FooterWrapper = styled.div`
-    padding: 30px 34px;
+    padding: 10px 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 1100px;
+    max-width: 1500px;
     margin: 0 auto;
 `
 
 export const FooterLinkContainer = styled.div`
     display: flex;
-    justify-content: center;
 
     @media screen and (max-width: 820px) {
-        padding-top: 32px;
+        padding-top: 10px;
     }
 `
 
@@ -37,14 +37,14 @@ export const FooterLinkWrap = styled.div`
 export const FooterLinkItems = styled.div`
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     margin: 25px;
     text-align: left;
-    width: 200px;
+    width: 300px;
     box-sizing: border-box;
     color: #fff;
 
-    @media screen and (max-width: 820px) {
+    @media screen and (max-width: 870px) {
         margin: 0;
         padding: 30px;
         width: 100%;

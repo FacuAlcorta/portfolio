@@ -13,8 +13,13 @@ const Servicios = () => {
 
   return (
     <>
+<<<<<<< HEAD
     <Sidebar isOpen={isOpen} toggle={toggle}/>
     <NavbarR toggle={toggle}/>
+=======
+    <NavbarR toggle={toggle}/>
+    <Sidebar isOpen={isOpen} toggle={toggle}/>
+>>>>>>> 0287efc (Agregado de flipcard y video en contacto)
     <Services />
     <Footer />
     </>

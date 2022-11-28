@@ -2,7 +2,9 @@ import React from 'react'
 import { AboutContainer, AboutWrapper, AboutRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrapper, ImgWrap, Img, Link, LinkS} from './AboutElements'
 import { Button } from '../ButtonElements';
 
-export const AboutSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, img, alt, primary, dark, dark2}) => {
+export const AboutSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, img, alt}) => {
+
+    
   return (
     <>
         <AboutContainer lightBg={lightBg} id={id}>
@@ -59,10 +61,13 @@ export const AboutSection1 = ({lightBg, id, imgStart, topLine, lightText, headli
                               {description}
                           </Subtitle>
                           <BtnWrapper>
-                              <Button>                        
+                              <Button onClick={()=> window.scrollTo({top: 0, left: 0})}>                        
                               <LinkS to="services"
+<<<<<<< HEAD
                                 spy={true}
                                 exact={true}
+=======
+>>>>>>> 0287efc (Agregado de flipcard y video en contacto)
                               >
                               {buttonLabel}
                               </LinkS>                              

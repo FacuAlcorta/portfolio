@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const ServicesContainer = styled.div`
-    height: 600px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,7 +25,6 @@ export const ServicesContainer = styled.div`
 export const ServicesWrapper = styled.div`
     max-width: 1500px;
     position: relative;
-    margin: o auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;
@@ -47,24 +46,51 @@ export const ServicesCard = styled.div`
     background: #fff;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     border-radius: 10px;
+<<<<<<< HEAD:src/components/Servicios/ServicesElements.js
     max-height: 340px;
     padding: 30px;
     box-shadow: 0 1px 2px rgba(0,0,0,0.2);
     transition: all 0.2s ease-in-out;
+=======
+    height: 340px;
+>>>>>>> 0287efc (Agregado de flipcard y video en contacto):src/components/Servicios.js/ServicesElements.js
     cursor: pointer;
 
-    &:hover {
-        transform: scale(1.02);
-        transition: all 0.2s ease-in-out;
-        curosr: pointer;
-    }
-
     @media screen and (max-width: 1200px ){
-        height: 480px;
+        height: 320px;
     }
+`
+
+export const FlipWrapper = styled.div`
+    width: 99%;
+    heigth: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background: #fff;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+
+    &:hover {
+        transform: perspective(600px) rotateY(-180deg);
+        transition: 1s;
+    }
+`
+export const FlipImgWrapper = styled.div`
+    width: 100%;
+    max-width: 180px;
+    position: absolute;
+`
+
+export const FlipTextWrapper = styled.div`
+    width: 100%;
+    backface-visibility: hidden;
+    transform: perspective(600px) rotateY(180deg)
 `
 
 export const ServicesIcon = styled.img`
@@ -91,7 +117,7 @@ export const ServicesSubtitle = styled.h2`
 `
 
 export const ServicesP = styled.p`
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
     padding-bottom: 15px;
     padding-top: 20px;

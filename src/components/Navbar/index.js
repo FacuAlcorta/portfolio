@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom'
 import { Link } from 'react-scroll'
 import { ImgLogo, Nav, NavLogo, NavbarContainer, MobileIcon, NavItem, NavMenu, NavLinks, NavLinksR, NavBtn, NavBtnLink } from './NavbarElements'
 import { animateScroll as scroll } from 'react-scroll'
+import { homeObjOne } from '../AboutSection/Data'
 
 
 export const NavbarS = ({toggle}) => {
@@ -71,7 +72,11 @@ export const NavbarS = ({toggle}) => {
 export const NavbarR = ({toggle}) => {
   
   const toggleHome = () => {
+<<<<<<< HEAD
     scroll.scrollToTop();
+=======
+    scroll.scrollToTop(true);
+>>>>>>> 0287efc (Agregado de flipcard y video en contacto)
   }
 
   return (
@@ -85,6 +90,7 @@ export const NavbarR = ({toggle}) => {
                 <NavMenu>
                   <NavItem>
                     <NavLinksR
+<<<<<<< HEAD
                     to="/about"
                     spy={true}
                     offset={-80}
@@ -117,6 +123,14 @@ export const NavbarR = ({toggle}) => {
                     offset={-80}
                     >Portfolio</NavLinksR>
                   </NavItem>
+=======
+                    to="/"
+                    onClick={()=> window.scrollTo({top: 0, left: 0})}
+                    offset={-80}
+                    >Home</NavLinksR>
+                  </NavItem>
+                  
+>>>>>>> 0287efc (Agregado de flipcard y video en contacto)
                 </NavMenu>
                   <NavBtn>
                     <NavBtnLink to="/contacto">Contacto</NavBtnLink>
