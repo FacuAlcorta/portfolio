@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
-    min-height: 692px;
+    min-height: 800px;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -18,7 +18,7 @@ export const Container = styled.div`
 `
 
 export const FormWrapper = styled.div`
-        height: 90%;
+        height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -27,10 +27,21 @@ export const FormWrapper = styled.div`
         @media screen and (max-width: 400px) {
             height: 80%;
         }
+        @media screen and (max-height: 1400px) {
+            height: 90%;
+        }
 `
 
 export const NavLogo = styled(Link)`
-        margin-top: 48px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        z-index: 3;
+        background: #000;
+        border-radius: 50%;
+
+        @media screen and (max-height: 1000px) {
+            margin-top: 40px;
+        }
 `
 
 export const FormContent = styled.div`
@@ -47,7 +58,7 @@ export const FormContent = styled.div`
 
 export const Form = styled.form`
     background: #000;
-    max-width: 500px;
+    max-width: 600px;
     heigth: auto;
     width: 100%;
     z-index: 1;
@@ -60,10 +71,13 @@ export const Form = styled.form`
     @media screen and (max-width: 500px) {
         padding: 32px 32px;
     }
+    @media screen and (max-height: 1500px) {
+        padding: 0 32px;
+    }
 `
 
 export const FormH1 = styled.h1`
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: #fff;
     font-size: 50px;
     font-weight: 400;
@@ -77,7 +91,7 @@ export const FormH1 = styled.h1`
 export const FormLabel = styled.label`
     display: flex;
     flex-direction: flex-start;
-    margin-bottom: 8px;
+    margin: 8px;
     font-size: 30px;
     color: #fff;
 
@@ -88,11 +102,15 @@ export const FormLabel = styled.label`
 
 export const FormInput = styled.input`
     font-size: 22px;
-    padding: 12px 12px;
+    padding: 0 12px;
     margin-bottom: 32px;
     border: none;
     border-radius: 4px;
     max-length: 4;
+
+    @media screen and (max-height: 1000px) {
+        margin-bottom: 10px;
+    }
 `
 
 export const FormInputText = styled.textarea`
@@ -101,8 +119,7 @@ export const FormInputText = styled.textarea`
     margin-bottom: 32px;
     border: none;
     border-radius: 4px;
-    height: 150px;
-
+    height: 160px;
 `
 
 export const FormButton = styled.button`
@@ -115,6 +132,7 @@ export const FormButton = styled.button`
     color: #000;
     font-size: 30px;
     cursor: pointer;
+    margin-bottom: 20px;
 
     &:hover {
         transform: scale(1.04);

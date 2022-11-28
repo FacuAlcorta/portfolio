@@ -8,9 +8,13 @@ export const LoopContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 800px;
+    height: 1000px;
     position: relative;
     z-index: 1;
+    }
+
+    @media screen and (max-height: 1000px) {
+        height: 800px;
     }
 `
 
@@ -31,6 +35,7 @@ export const VideoBg = styled.video`
     -o-object-fit: cover;
     object-fit: cover;
     background: #232a34;
+    filter: blur(4px);
 `
 
 export const LoopContent = styled.div`

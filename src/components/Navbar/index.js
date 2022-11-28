@@ -26,7 +26,7 @@ export const NavbarS = ({toggle}) => {
                     <NavLinks
                     to="about"
                     smooth={true}
-                    duration={350}
+                    duration={450}
                     spy={true}
                     offset={-80}
                     >About</NavLinks>
@@ -35,7 +35,7 @@ export const NavbarS = ({toggle}) => {
                     <NavLinks 
                     to="skills"
                     smooth={true}
-                    duration={350}
+                    duration={450}
                     spy={true}
                     offset={-80}
                     >Skills</NavLinks>
@@ -44,7 +44,7 @@ export const NavbarS = ({toggle}) => {
                     <NavLinks 
                     to="design"
                     smooth={true}
-                    duration={350}
+                    duration={450}
                     spy={true}
                     offset={-80}
                     >Diseño</NavLinks>
