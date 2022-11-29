@@ -5,7 +5,7 @@ export const homeObjOne = {
     lightTextDesc: false,
     topLine: 'Frontend Web Development',
     headline: 'Enfocado en darte el mejor producto.',
-    description: 'Mi nombre es Facundo Alcorta, y soy un desarrollador web apasaionado por el mundo IT. Además del desarrollo de aplicaciones web, tambien realizo diseño digital, y proximamente incorporaré servicios de ciberseguridad.',
+    description: 'Mi nombre es Facundo Alcorta, y soy un desarrollador web apasionado por el mundo IT. Además del desarrollo de aplicaciones web, tambien realizo diseño digital, y proximamente incorporaré servicios de ciberseguridad.',
     buttonLabel: 'Asesorarme',
     imgStart: true,
     img: require('../../images/coding-desk-png.png'),
